@@ -1,0 +1,16 @@
+.container {
+    height: 85%;
+    background: rgb(75, 75, 75);
+}
+
+.nav {
+    background: rgb(109, 108, 108);
+}
+
+.mat-list-base .mat-list-item {
+    color: #fafafa;
+}
+
+i {
+    padding-right: .6rem;
+}
