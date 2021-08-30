@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CategoriaReadComponent } from './components/views/categoria-read/categoria-read.component';
 import { CategoriaCreateComponent } from './components/views/categoria/categoria-create/categoria-create.component';
+import { CategoriaDeleteComponent } from './components/views/categoria/categoria-delete/categoria-delete.component';
 import { HomeComponent } from './components/views/home/home.component';
 
 
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: 'categorias/create',
     component: CategoriaCreateComponent
+  },
+  {
+    path: 'categorias/delete/:id',
+    component: CategoriaDeleteComponent
   }
 ];
 
