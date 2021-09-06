@@ -19,6 +19,14 @@ button {
     color: rgb(92, 29, 29);
 }
 
+input::placeholder {
+    color: rgb(223, 223, 223);
+}
+
+textarea::placeholder {
+    color: rgb(223, 223, 223);
+}
+
 .table {
     width: 100%;
     background: rgb(109, 108, 108);
